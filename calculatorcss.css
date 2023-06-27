@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width:100% ;
+    height:100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(75deg,#09203F,#537895);
+}
+#calcLayout{
+    width:50vh ;
+    height:70vh ;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px black ;
+    
+}
+#form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
+    row-gap: 10px;
+    column-gap: 30px;
+}
+.clbutton{
+    width: 3vw;
+    height: 4vw;
+    font-size: 2vw;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    transition: transform 0.1s;
+}
+.clbutton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+#display{
+    width: 90%;
+    height:50px ;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px black ;
+    color: bisque;
+    font-size: 2.0vw;
+    
+    
+}
+.candeq{
+    width: 40%;
+    height:30px ;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size:20px ;
+    border-radius: 5px;
+    transition: transform 0.1s;
+}
+.candeq:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: black;
+    transform: scale(1.1);
+}
